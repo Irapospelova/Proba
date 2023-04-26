@@ -1,12 +1,9 @@
-
 import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.Assert.*;
 
-
-public class CashBackHackServiceTest {
+public class CashBackHackServiceTestng {
     @Test
-
     public void shouldCalcSumRemain() {
         CashBackHackService service = new CashBackHackService();
 
